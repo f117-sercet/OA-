@@ -1,5 +1,8 @@
 package oa.dao;
 
-public interface IBookDao {
+import oa.base.IBaseDao;
+import oa.domain.Book;
+
+public interface IBookDao extends IBaseDao<Book>{
 
 }
