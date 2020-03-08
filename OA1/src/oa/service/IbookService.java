@@ -5,7 +5,7 @@ import java.util.List;
 import oa.domain.Book;
 
 
-public interface IbookService {
+public interface IBookService {
 
 	/**
 	 * Ìí¼Ó

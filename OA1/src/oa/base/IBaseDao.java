@@ -2,6 +2,11 @@ package oa.base;
 
 import java.util.List;
 
+import oa.domain.PageBean;
+import oa.util.HQLHelper;
+
+
+
 /**
  * 通用Dao接口
  * @author 永远喜欢亚莉莎
@@ -38,5 +43,9 @@ public interface IBaseDao<T> {
 	 */
 	public List<T> findAll();
 	
+	/**
+	 * 公共分页方法
+	 */
+	public PageBean getPageBean(HQLHelper hh,int currentPage);	
 
 }

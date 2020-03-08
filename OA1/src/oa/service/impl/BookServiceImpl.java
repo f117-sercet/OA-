@@ -9,10 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import oa.dao.IBookDao;
 import oa.domain.Book;
-import oa.service.IbookService;
+import oa.service.IBookService;
 @Service
 @Transactional
-public class BookServiceImpl implements IbookService {
+public class BookServiceImpl implements IBookService {
 	
 @Resource
 private IBookDao bookDao;

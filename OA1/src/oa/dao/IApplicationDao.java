@@ -1,14 +1,11 @@
 package oa.dao;
 
-import java.util.List;
-
 import oa.base.IBaseDao;
-import oa.domain.ApproveInfo;
+import oa.domain.Application;
 
 
 
-public interface IApplicationDao extends IBaseDao<ApproveInfo>{
+public interface IApplicationDao extends IBaseDao<Application>{
 
-	public List<ApproveInfo> findApproveInfoListByApplicationId(Long applicationId);
 
 }
