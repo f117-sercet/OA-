@@ -7,11 +7,11 @@ import java.util.Set;
 
 /**
  * 主题实体
- * @author 60221
+ * @author 永远喜欢亚莉莎
  *
  */
 
-public class Topic {
+public class Topic extends Article{
 	private String title;//标题
 	private Date lastUpdateTime;//最后更新时间
 	private int type;// 主题类型  0表示普通帖 1表示精华帖 2表示置顶帖

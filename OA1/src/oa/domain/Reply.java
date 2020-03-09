@@ -7,7 +7,7 @@ package oa.domain;
  * @author 永远喜欢亚莉莎
  *
  */
-public class Reply {
+public class Reply extends Article {
 	private Topic topic;//当前回复属于哪个主题
 	private int deleted;//删除标志 1表示已经删除 0表示没有删除
 	public Topic getTopic() {

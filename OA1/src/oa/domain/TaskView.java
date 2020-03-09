@@ -13,7 +13,10 @@ import org.jbpm.api.task.Task;
 public class TaskView {
 	private Application application;
 	private Task task;
-	public TaskView() {}
+	public TaskView(Application application,Task task) {
+		this.task=task;
+		this.application=application;
+	}
 	public Application getApplication() {
 		return application;
 	}
